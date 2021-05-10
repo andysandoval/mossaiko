@@ -2,46 +2,185 @@ body{
     background-color: black !important;
 }
 
-.titulo{
-    width: 300px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    border-radius: 5%;
+@media only screen and (max-width: 320px) {    
+    .titulo{
+        width: 100px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border-radius: 5%;
+    }
+    
+    .icons{
+        padding-top: 10px;
+    }
+    
+    h1{
+        font-size: 60px !important;
+        color: rgba(255, 255, 255, 0.651);
+    }
+    
+    h6{
+        color: rgba(255, 255, 255, 0.329);
+    }
+    
+    .material-icons{
+        font-size: 20px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    button{
+        border-radius: 25px 25px 25px 25px !important;
+        size: 30px 30px !important;
+        padding: -10 !important;
+        margin: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        outline: none !important;
+    }
+    
+    .btn{
+        padding: 0 !important;
+    }
 }
 
-.icons{
-    padding-top: 200px;
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .titulo{
+        width: 100px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border-radius: 5%;
+    }
+    
+    .icons{
+        padding-top: 10px;
+    }
+    
+    h1{
+        font-size: 60px !important;
+        color: rgba(255, 255, 255, 0.651);
+    }
+    
+    h6{
+        color: rgba(255, 255, 255, 0.329);
+    }
+    
+    .material-icons{
+        font-size: 20px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    button{
+        border-radius: 25px 25px 25px 25px !important;
+        size: 30px 30px !important;
+        padding: -10 !important;
+        margin: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        outline: none !important;
+    }
+    
+    .btn{
+        padding: 0 !important;
+    }
+
 }
 
-h1{
-    font-size: 150px !important;
-    color: rgba(255, 255, 255, 0.651);
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .titulo{
+        width: 300px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border-radius: 5%;
+    }
+    .icons{
+        padding-top: 200px;
+    }
+    
+    h1{
+        font-size: 120px !important;
+        color: rgba(255, 255, 255, 0.651);
+    }
+    
+    h6{
+        color: rgba(255, 255, 255, 0.329);
+    }
+    
+    .material-icons{
+        font-size: 60px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    button{
+        border-radius: 25px 25px 25px 25px !important;
+        size: 30px 30px !important;
+        padding: -10 !important;
+        margin: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        outline: none !important;
+    }
+    
+    .btn{
+        padding: 0 !important;
+    }
 }
 
-h6{
-    color: rgba(255, 255, 255, 0.329);
-}
-
-.material-icons{
-    font-size: 60px !important;
-    margin: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-}
-
-button{
-    border-radius: 25px 25px 25px 25px !important;
-    size: 30px 30px !important;
-    padding: -10 !important;
-    margin: 0 !important;
-    font-size: 0 !important;
-    line-height: 0 !important;
-    outline: none !important;
-}
-
-.btn{
-    padding: 0 !important;
+@media only screen and (min-width: 1024px) {        
+    .titulo{
+        width: 300px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border-radius: 5%;
+    }
+    .icons{
+        padding-top: 200px;
+    }
+    
+    h1{
+        font-size: 150px !important;
+        color: rgba(255, 255, 255, 0.651);
+    }
+    
+    h6{
+        color: rgba(255, 255, 255, 0.329);
+    }
+    
+    .material-icons{
+        font-size: 60px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    button{
+        border-radius: 25px 25px 25px 25px !important;
+        size: 30px 30px !important;
+        padding: -10 !important;
+        margin: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        outline: none !important;
+    }
+    
+    .btn{
+        padding: 0 !important;
+    }
 }
